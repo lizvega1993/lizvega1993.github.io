@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/531ac7ac07.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Liz Vega</title>
+</head>
+<body>
+    <div class="containerHeader">
+        <!--Creacion de barra de navegacion-->
+        <header class="containernav">
+            <nav class="headerNav">
+                <h1>Liz Vega</h1>
+                <input type="checkbox" id="menu-check">
+                <label id="menu" for="menu-check">
+                    <span id="menu-abrir"> <i class="fa-solid fa-bars" style="color: black;"></i></span>
+                    <span id="menu-cerrar">X</span>
+                </label>
+                <ul class="navUl"> 
+                    <a lass="list-link"href="#sobreMi"><li>Sobre Mí</li></a>
+                    <a lass="list-link"href="#proyectos"><li>Proyectos</li></a>
+                    <a lass="list-link"href="#resumen"><li>Mi Camino</li></a>
+                    <a lass="list-link"href="#habilidades"><li>Habilidades</li></a>
+                    <a lass="list-link"href="#contacto"><li>Contacto</li></a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <main>
+        <!--Introduccion y presentacion-->
+        <section id="sobreMi" class="mainContainer">
+            <div class="gridSobreMi">
+
+                <div class="sectionDiv">
+                    <h2>Desarrolladora </h2>
+                    <span>Web</span>
+                    <p>Bienvenido! Soy Liz Vega</p>
+                    <p>Aquí encontrarás una colección de mi trabajo y experiencias en el desarrollo web y programación, reflejando mi pasión por desarrollo web.</p>
+                    <p>  Explora con confianza y descubre el viaje creativo y profesional que he recorrido.</p>
+                    <p> ¡Espero que encuentres inspiración y disfrutes de lo que ves!</p>
+                    <a class="button" href="documentos/CV Lizeth Vega Gomez.pdf" download="CV Liz Vega" title="Descarga CV">Descarga CV</a>
+                    <a class="button" href="#contacto">Contacto</a>
+                </div>
+                <div class="sectionDiv2">
+                    <img src="img/perfil.png">
+                    
+            </div>
+            </div>
+        </section>
+        <section  class="sobreMi">
+            <h2>Sobre Mí</h2>
+            <div class="sectionSobreMi">
+            
+                <p>Ingeniera Química con amplia experiencia y habilidades destacadas en el desarrollo web. Experiencia en el diseño y desarrollo tanto de la parte frontaend como Backend de sitios y aplicaciones web. Mis conocimientos abarcan base de datos MongoDB, HTML, CSS, JavaScript, MySQL, JavaScrip, Python y Java, y estoy familiarizado con herramientas de diseño como Figma y frameworks como Angular y React. Actualizado en las últimas tendencias y tecnologías web, incluyendo la creación y optimización de gráficos y contenido multimedia. Cuento con capacidades para trabajar en equipo, planeación estratégica, liderazgo y trabajo orientado a resultados.</p>
+               
+            </div>
+        </section>
+        <!-- proyectos Carrusel de muestra de trabajos-->
+        <section id="proyectos" class="mainProyec">
+            <h3>Mis Proyectos</h3>
+            <div class="carrusel">
+                <div class="atras">
+                    <img id="atras" src="img/atras.svg" alt="atras" loading="lazy">
+                </div>
+        
+                <div class="imagenes">
+                    <div id="img">
+                       <a href="https://github.com/lizvega1993?tab=stars" target="_blank"><img class="img" src="img/Carrusel-01.png" alt="imagen 1" loading="lazy"></a>
+                    </div>
+                    
+                    <div id="texto" class="texto">
+                        <h3>Transformando ideas en experiencias digitales</h3>
+                        <p>En nuestros proyectos de desarrollo web, creamos plataformas dinámicas y funcionales, desde el diseño personalizado hasta la implementación de tecnologías de vanguardia.</p>
+                    </div>
+                </div>
+        
+                <div class="adelante" id="adelante">
+                    <img src="img/adelante.svg" alt="adelante" loading="lazy">
+                </div>
+            </div>
+        
+            <div class="puntos" id="puntos"></div>
+            <script src="app.js"></script>
+        </section>
+        <!--resumen-->
+        <section id="resumen" class="Container'Caract">
+            <h4>Mi Camino</h4>
+            <div class="grid">
+                <div class="gridExperiencia">
+                    <p class="gridParrafo">Experiencia</p>
+                    <div class="añoExperiencia">
+                        <p class="experienciaAño"> Dic 2023 - Actualmente</p>
+                        <div> 
+                            <li class="Cargo">Desarrolladora Web</li>
+                            <li class="empresa">Full Solar Energy</li>
+                                <ul class="funciones">
+                                <li>Utilicé mis habilidades en HTML, CSS, JavaScript, MySQL, Bases de datos, MongoDB, JavaScrip y Java para crear soluciones web eficientes.</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="añoExperiencia">
+                        <p class="experienciaAño">Mar 2023- Sep 2023</p>
+                        <div> 
+                            <li class="Cargo">Analista de Diseño y Desarrollo</li>
+                            <li class="empresa">Laboratorios Provet</li>
+                                <ul class="funciones">
+                                    <li>Desarrolle y ejecute de técnicas para la validación y análisis de estabilidades.</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            <!--Educacion-->
+            <div class="gridExperiencia">
+                <p class="gridParrafo">Educacion</p>
+                <div class="añoExperiencia">
+                    <p class="experienciaAño">Nov 2023- Actualmente</p>
+                    <div> 
+                        <li class="Cargo">Desarrollo Full Stack Java</li>
+                        <li class="empresa">Generation</li>
+                            <ul class="funciones">
+                                <li>Crear sitios web integrando el diseño de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end).</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="añoExperiencia">
+                    <p class="experienciaAño"> Ene 2015- Mar2021</p>
+                    <div> 
+                        <li class="Cargo">Ingeniera Quimica</li>
+                        <li class="empresa">Universidad Jorge Tadeo Lozano</li>
+                        <ul class="funciones">
+                            <li>Modelado y simulación de procesos, diseño de equipos y plantas, análisis de datos, gestión de proyectos y comunicación técnica efectiva.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--Habilidades-->
+        <section id="habilidades" class="habilidades">
+            <div>
+                <h5>Habilidades</h5>
+                <p>Habilidades Técnicas</p>
+            </div>
+            <div class="containerHabilidades">
+                <div class="progress" style="--i:85;--clr:#1ad120;">
+                    <h3>85<span>%</span></h3>
+                    <h4>HTML</h4>
+                </div>
+                <div class="progress" style="--i:62;--clr:#0a7691;">
+                    <h3>62<span>%</span></h3>
+                    <h4>CSS</h4>
+                </div>
+                <div class="progress less" style="--i:35;--clr:#b643f9;">
+                    <h3>35<span>%</span></h3>
+                    <h4>Java</h4>
+                </div>
+            </div>
+            <div class="containerHabilidades">
+                <div class="progress less" style="--i:35;--clr:#da244b;">
+                    <h3>35<span>%</span></h3>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="progress" style="--i:55;--clr:#811072;">
+                    <h3>55<span>%</span></h3>
+                    <h4>SQL</h4>
+                </div>
+            </div>
+            <div class="habilidadesDiv">
+                <p>Habilidades Personales</p>
+            </div>
+            <div class="containerHabilidades">
+                <div class="progress" style="--i:85;--clr:#1ad120;">
+                    <h3>90<span>%</span></h3>
+                    <h4>liderazgo</h4>
+                </div>
+                <div class="progress" style="--i:62;--clr:#0a7691;">
+                    <h3>82<span>%</span></h3>
+                    <h4>Trabajo en Equipo</h4>
+                </div>
+                <div class="progress" style="--i:35;--clr:#b643f9;">
+                    <h3>79<span>%</span></h3>
+                    <h4>Orientacion al Resultado</h4>
+                </div>
+                <div class="progress" style="--i:55;--clr:#181081;">
+                    <h3>85<span>%</span></h3>
+                    <h4>Planeación Estrátegica</h4>
+                </div>
+            </div>
+        </section>
+        <!--Contacto -->
+        <section id="contacto">
+            <div class="container-form">
+                <div class="info-form">
+                    <h6>Contácto</h6>
+                    <p>Si tienes preguntas, comentarios o simplemente quieres saludar, no dudes en ponerte en contacto con nosotros. Estamos comprometidos en brindarte la mejor atención posible.</p>
+                    <a href="tel:+573195410407"><i class="fa fa-phone"></i> +57 319 541 0407</a>
+                    <a href="mailto:lizethvegagomez@hotmail.com"><i class="fa fa-envelope"></i> Lizethvegagomez@hotmail.com</a>
+                    <a href="tel:+573195410407"><i class="fa fa-map-marked"></i>Colombia</a>
+                </div>
+                <div class="formato">
+                    <form class="form-input" action="https://formsubmit.co/lizethvegagomez@hotmail.com" method="POST" target="_blank" autocomplete="off">
+                    <input type="text" name="Nombre" placeholder="Tu Nombre" class="campo" required>
+                    <input type="email" name="email" placeholder="Tu Correo Electronico " pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" class="campo" required>
+                    <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea >
+                    <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--pie de pagina-->
+    <footeer>
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Correo -->
+                <a href="mailto:lizethvegagomez@hotmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #551a8b;"></i></i></a>
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/lizethvegag/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               
+                <!-- Github -->
+                <a href="https://github.com/lizvega1993" target="_blank"><i class="fab fa-github"></i></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center">
+              © 2023 Copyright:
+              <a class="text-body">Liz Vega</a>
+            </div>
+            <!-- Copyright -->
+    </footeer>
+
+</body>
+</html>
