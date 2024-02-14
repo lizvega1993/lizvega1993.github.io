@@ -566,6 +566,9 @@ footer i{
     .headerNav h1{
         font-size: 40px;
     }
+    .sectionDiv h2{
+        font-size: 2.3rem;
+    }
     .navUl{
         display: flex;
     }
@@ -629,14 +632,14 @@ footer i{
         padding-right: 2%;
     }
     .sectionDiv2 img{
-        transform: translateY(-490px);
+        transform: translateY(-650px);
         border-radius: 70px 100px;
     }
     .gridSobreMi{
         grid-template-columns: 100%;
     }
     .sobreMi h2{
-        margin: 0.5%;
+        margin: 0.5;
     }
     .sobreMi {
         margin: 0.5%;
