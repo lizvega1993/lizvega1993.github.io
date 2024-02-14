@@ -522,7 +522,7 @@ footer i{
     font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
 }
 /*-------Desing Responsive Ipad 11Pro-------*/
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 1023px) {
     .headerNav h1{
         font-size: 60px;
         margin-right: 1%;
@@ -562,7 +562,7 @@ footer i{
     }
 }
 /*-------Desing Responsive Ipad 13Pro-------*/
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
     .headerNav h1{
         font-size: 40px;
     }
